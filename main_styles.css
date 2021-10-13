@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(55, 185, 228, 0.829);
+}
+
+.nav-item, .navbar-brand {
+    font-size: 22px;
+}
+
+.navbar-brand {
+    color: yellow!important;
+}
+
+.navigation-item {
+    color: white!important;
+}
+
+.heading1 {
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+}
+
+.heading1 span {
+    color: yellow;
+}
+
+.heading2 {
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+
+.temp1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.lead {
+    color: white;
+}
+
+.navbar.scrolled {
+    background: red;
+}
+
+@media (max-width: 1200px) {
+    #heading1 h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
